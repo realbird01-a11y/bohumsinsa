@@ -21,6 +21,10 @@ export const metadata: Metadata = {
     description: '보험신사는 실손보험, 암보험, 보장분석 등 보험 정보를 전문적으로 제공하는 콘텐츠 브랜드입니다.',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
+  verification: {
+    google: 'b-VSYROVc5yvSGi2n62aerIHfcgN_sEDRXO2kuBd6Ig',
+    other: { 'naver-site-verification': ['bb97f3002438f7bac9cc04629da91069611dc8d8'] },
+  },
   robots: {
     index: true,
     follow: true,
