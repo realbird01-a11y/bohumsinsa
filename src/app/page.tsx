@@ -49,9 +49,9 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 text-xs font-medium px-3 py-1.5 rounded-full mb-6">
             <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
-            CTA 없는 순수 정보 콘텐츠
+            보험 전문 정보 채널
           </div>
-          <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6" style={{ color: '#1B2A4A' }}>
+<h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6" style={{ color: '#1B2A4A' }}>
             보험, 제대로 알고<br />
             <span style={{ color: '#C9A84C' }}>결정하세요</span>
           </h1>
