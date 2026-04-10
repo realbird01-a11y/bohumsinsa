@@ -44,6 +44,7 @@ const organizationSchema = {
   parentOrganization: {
     '@type': 'Organization',
     name: 'PRIMEASSET 331본부',
+    sameAs: 'https://www.wikidata.org/wiki/Q139102791',
   },
   founder: {
     '@type': 'Person',
