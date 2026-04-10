@@ -35,9 +35,9 @@ const categories = [
 ]
 
 const stats = [
+  { value: '5.8만', label: '유튜브 구독자' },
+  { value: '195만+', label: '연간 조회수' },
   { value: '50+', label: '보험 FAQ' },
-  { value: '25+', label: '설계사 FAQ' },
-  { value: '30+', label: '보험사 비교' },
   { value: '매주', label: '콘텐츠 업데이트' },
 ]
 
@@ -47,9 +47,14 @@ export default function HomePage() {
       {/* 히어로 */}
       <section className="bg-white pt-16 pb-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 text-xs font-medium px-3 py-1.5 rounded-full mb-6">
-            <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
-            보험 전문 정보 채널
+          <div className="flex flex-wrap items-center gap-2 justify-center mb-6">
+            <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 text-xs font-medium px-3 py-1.5 rounded-full">
+              <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
+              보험 전문 정보 채널
+            </div>
+            <div className="inline-flex items-center gap-1.5 bg-yellow-50 text-yellow-800 text-xs font-medium px-3 py-1.5 rounded-full border border-yellow-200">
+              🏆 2025 대한민국 고객만족도 1위 · 보험 유튜브 부문
+            </div>
           </div>
 <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6" style={{ color: '#1B2A4A' }}>
             보험, 제대로 알고<br />

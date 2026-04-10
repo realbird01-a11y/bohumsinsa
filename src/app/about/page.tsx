@@ -109,6 +109,30 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* 수상 */}
+      <section className="py-16 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-10" style={{ color: '#1B2A4A' }}>
+            공인 인증
+          </h2>
+          <div className="flex flex-col sm:flex-row items-center gap-8 bg-yellow-50 rounded-2xl p-8 border border-yellow-100">
+            <div className="text-5xl flex-shrink-0">🏆</div>
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-yellow-600 mb-1">
+                2025 대한민국 고객만족도 1위
+              </p>
+              <h3 className="text-xl font-bold mb-2" style={{ color: '#1B2A4A' }}>
+                보험 유튜브 부문
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                스포츠서울 주최, 한국에스미디어 주관. 2025년 4월 30일 공식 인증.
+                유튜브 구독자 5.8만, 연간 195만 조회수를 기반으로 선정되었습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 운영자 */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-3xl mx-auto">
