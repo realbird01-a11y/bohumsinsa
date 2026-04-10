@@ -40,7 +40,10 @@ const organizationSchema = {
     '소비자를 위한 보험 상품 비교·분석 전문 콘텐츠 브랜드로, PRIMEASSET 331본부 소속 전문 설계사들의 지식을 기반으로 보험 정보를 제공합니다.',
   url: 'https://bohumsinsa.com',
   logo: 'https://bohumsinsa.com/logo.png',
-  sameAs: ['https://blog.naver.com/bohumsinsa'],
+  sameAs: [
+    'https://blog.naver.com/bohumsinsa',
+    'https://www.wikidata.org/wiki/Q139105427',
+  ],
   parentOrganization: {
     '@type': 'Organization',
     name: 'PRIMEASSET 331본부',
