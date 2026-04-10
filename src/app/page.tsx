@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: '보험신사 — 소비자를 위한 보험 정보 전문 브랜드',
-  description: '보험신사는 32개 전체 보험사를 비교분석하고 소비자를 위한 올바르고 정직한 보험 정보를 제공합니다. 2025 대한민국 고객만족도 1위 보험 유튜브 채널.',
+  description: '보험신사는 32개 보험사를 비교분석하고 소비자를 위한 올바르고 정직한 보험 정보를 제공합니다. 2025 대한민국 고객만족도 1위 보험 유튜브 채널.',
   alternates: { canonical: 'https://bohumsinsa.com' },
 }
 
@@ -62,7 +62,7 @@ export default function HomePage() {
             <span style={{ color: '#C9A84C' }}>결정하세요</span>
           </h1>
           <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto mb-10">
-            보험신사는 32개 전체 보험사를 비교분석하고
+            보험신사는 32개 보험사를 비교분석하고
             소비자를 위한 올바르고 정직한 보험 정보를 제공합니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
