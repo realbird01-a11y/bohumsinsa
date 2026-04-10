@@ -87,8 +87,8 @@ export default function AboutPage() {
               },
               {
                 icon: '🚫',
-                title: 'CTA 없음',
-                desc: '특정 상품 가입 유도, 상담 연결, 연락처 노출을 하지 않습니다.',
+                title: '광고 없음',
+                desc: '특정 상품 가입 유도, 상담 연결, 광고비 수취를 하지 않습니다.',
               },
               {
                 icon: '🔄',
